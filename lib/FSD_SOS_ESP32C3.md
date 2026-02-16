@@ -34,7 +34,7 @@ The program is designed for the LuatOS-ESP32C3 development board, utilizing its 
 2. Use WiFi and OTA update to send SOS alert to a web/application
 3. Minimal delay between the LED onboard and the application
 
-## 3. Implementation
+## 5. Implementation
 1. First 'S' = 
     - Toggles LED1 three times, synced with the virtual LED in the app.
     - 400ms ON / 400ms OFF.
@@ -52,7 +52,7 @@ The program is designed for the LuatOS-ESP32C3 development board, utilizing its 
 
 **Note that between each full "SOS" sent, the system enters an idle for 1000ms (1s) before restarting the sequence.
 
-## 4. Deployment Instructions
+## 6. Deployment Instructions
 1. Get the Blynk template ID and Authentication Key from the web console.
 2. Make sure the WiFi SSID and Password is changed depending on the location of the ESP32.
 3. Upload the code to the ESP32.
